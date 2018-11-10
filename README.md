@@ -1,1 +1,0 @@
-Based off https://startbootstrap.com/template-overviews/resume/
