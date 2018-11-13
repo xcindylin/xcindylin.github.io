@@ -114,7 +114,7 @@ h2 {
   font-weight: bold;
 }
 
-.card-header .btn-link:hover {
+.card-header:hover button {
   color: #C09F80;
 }
 
