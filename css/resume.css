@@ -66,6 +66,12 @@ h2 {
     color: #D7CEC7;
 }
 
+.main a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+}
+
 .main-section {
     margin-bottom: 50px;
     margin-top: 50px;
@@ -78,6 +84,7 @@ h2 {
     border-left: 2px solid #C09F80;
     padding-left: 23px;
     padding-top: 5px;
+    padding-bottom: 5px;
     font-family: "Lato", sans-serif;
 }
 
@@ -88,6 +95,36 @@ h2 {
     text-transform: uppercase;
     font-weight: bold;
     font-family: "Nunito", sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 0px;
+}
+
+.card-header {
+  background-color: #D7CEC7;
+  border-bottom: 2px solid #C09F80;
+  border-radius: 0px !important;
+}
+
+.card-header .btn-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-header .btn-link:hover {
+  color: #C09F80;
+}
+
+.card-body {
+  color: #565656;
+  border-bottom: 2px solid #C09F80;
+}
+
+.list-inline-item:hover {
+  color: #C09F80;
 }
 
 @media screen and (max-height: 450px) {
